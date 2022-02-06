@@ -13,6 +13,15 @@ Refactor Header
         removed . infront of the header css to work with new semantic
         removed header div ul and combined to header div ul li
         added a margin bottom to bring the img closer to the header
-        added bolder font weight to the <nav> 
+        added bolder font weight to the <nav>
 
+Changed the Semantics of all of the html for better navigation
+found more alts to add in the bottom three <img>
 
+Benefits section
+    (lead, brand, cost) 
+   Changed the class of all the articles in this section to benefit-text.
+    This in turn cut down on so many elements in CSS 
+        removed .benefits(lead, brand cost) and merged all atributes to .benefits-text 
+        removed .benefits(lead, brand, cost) img to one sourse to .benefits-text img  
+    added font-size 20px and font-weight to .benefit-text to match the image.
