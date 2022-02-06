@@ -25,3 +25,9 @@ Benefits section
         removed .benefits(lead, brand cost) and merged all atributes to .benefits-text 
         removed .benefits(lead, brand, cost) img to one sourse to .benefits-text img  
     added font-size 20px and font-weight to .benefit-text to match the image.
+
+Content Section
+Changed the class of each of the articles in the content section to content-text.
+    this reduced the amount of CSS elements needed
+        Removed the all CSS connected to old class and merged them to .content-text
+        replaced all sources with img to one source .content-text img 
